@@ -1,0 +1,23 @@
+{
+  "name": "colorizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "pkg": "^5.3.1",
+    "read-excel-file": "^5.2.9"
+  },
+
+  "pkg": {
+    "scripts": "node_modules/read-excel-file/*",
+    "assets": "node_modules/read-excel-file/*",
+    
+    "outputPath": "dist"
+  }
+}
