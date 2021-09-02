@@ -30,8 +30,7 @@ xlsxFile('./CORES HEX - R00.xlsx').then((rows) => {
         hex = JSON.parse(hex);
         colors.push(hex);
     })
-    console.log("teste");
-
+    
     names.forEach((el) => {
         var name = "$" + el;
         finalNames.push(name);
